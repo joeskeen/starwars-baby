@@ -1,0 +1,36 @@
+<div class="header">
+  <button (click)="goBack()">Back</button>
+  <h1>{{ characterId }}</h1>
+</div>
+<div *ngIf="character">
+  <swiper
+    [slidesPerView]="1"
+    [spaceBetween]="50"
+    [loop]="true"
+    [pagination]="{
+      clickable: true
+    }"
+    [navigation]="true"
+  >
+    <ng-template *ngFor="let picture of character.pictures" swiperSlide>
+      <div class="centered">
+        <img [src]="picture" />
+      </div>
+    </ng-template>
+    <ng-template *ngFor="let video of videos" swiperSlide>
+      <div class="centered">
+        <iframe
+          frameborder="0"
+          scrolling="no"
+          marginheight="0"
+          marginwidth="0"
+          width="445"
+          height="250"
+          type="text/html"
+          [src]="video"
+        >
+        </iframe>
+      </div>
+    </ng-template>
+  </swiper>
+</div>

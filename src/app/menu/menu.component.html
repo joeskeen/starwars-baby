@@ -1,0 +1,10 @@
+<h1>{{ title }}</h1>
+<a
+  *ngFor="let character of content?.characters"
+  [routerLink]="'/character/' + character.name"
+>
+  <div class="character">
+    <img [src]="character.profile" />
+    <div>{{ character.name }}</div>
+  </div>
+</a>

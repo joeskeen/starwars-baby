@@ -1,0 +1,139 @@
+{
+  "characters": [
+    {
+      "name": "Revan",
+      "profile": "assets/characters/Revan/01.jfif",
+      "pictures": [
+        "assets/characters/Revan/01.jfif",
+        "assets/characters/Revan/02.jfif",
+        "assets/characters/Revan/03.jfif",
+        "assets/characters/Revan/04.jfif",
+        "assets/characters/Revan/05.jfif",
+        "assets/characters/Revan/06.jfif",
+        "assets/characters/Revan/07.jfif",
+        "assets/characters/Revan/08.jfif",
+        "assets/characters/Revan/09.jfif"
+      ]
+    },
+    {
+      "name": "Vader",
+      "profile": "assets/characters/Vader/01.jfif",
+      "pictures": [
+        "assets/characters/Vader/01.jfif",
+        "assets/characters/Vader/02.jfif",
+        "assets/characters/Vader/03.jfif",
+        "assets/characters/Vader/04.jfif",
+        "assets/characters/Vader/05.jfif",
+        "assets/characters/Vader/06.jfif",
+        "assets/characters/Vader/07.jfif",
+        "assets/characters/Vader/08.jfif",
+        "assets/characters/Vader/09.jfif"
+      ]
+    },
+    {
+      "name": "Maul",
+      "profile": "assets/characters/Maul/01.jfif",
+      "pictures": [
+        "assets/characters/Maul/01.jfif",
+        "assets/characters/Maul/02.jfif",
+        "assets/characters/Maul/03.jfif",
+        "assets/characters/Maul/04.jfif",
+        "assets/characters/Maul/05.jfif",
+        "assets/characters/Maul/06.jfif",
+        "assets/characters/Maul/07.jfif",
+        "assets/characters/Maul/08.jfif",
+        "assets/characters/Maul/09.jfif"
+      ]
+    },
+    {
+      "name": "Jawa",
+      "profile": "assets/characters/Jawa/01.jfif",
+      "pictures": [
+        "assets/characters/Jawa/01.jfif",
+        "assets/characters/Jawa/02.jfif",
+        "assets/characters/Jawa/03.jfif",
+        "assets/characters/Jawa/04.jfif",
+        "assets/characters/Jawa/05.jfif",
+        "assets/characters/Jawa/06.jfif",
+        "assets/characters/Jawa/07.jfif",
+        "assets/characters/Jawa/08.jfif",
+        "assets/characters/Jawa/09.jfif"
+      ],
+      "videos": ["uHxjtHua2hk"]
+    },
+    {
+      "name": "Chewie",
+      "profile": "assets/characters/Chewie/01.jfif",
+      "pictures": [
+        "assets/characters/Chewie/01.jfif",
+        "assets/characters/Chewie/02.jfif",
+        "assets/characters/Chewie/03.jfif",
+        "assets/characters/Chewie/04.jfif",
+        "assets/characters/Chewie/05.jfif",
+        "assets/characters/Chewie/06.jfif"
+      ]
+    },
+    {
+      "name": "Boba",
+      "profile": "assets/characters/Boba/01.jfif",
+      "pictures": [
+        "assets/characters/Boba/01.jfif",
+        "assets/characters/Boba/02.jfif",
+        "assets/characters/Boba/03.jfif",
+        "assets/characters/Boba/04.jfif",
+        "assets/characters/Boba/05.jfif",
+        "assets/characters/Boba/06.jfif",
+        "assets/characters/Boba/07.jfif",
+        "assets/characters/Boba/07.jpg",
+        "assets/characters/Boba/08.jfif",
+        "assets/characters/Boba/09.jfif"
+      ],
+      "videos": ["rOJ1cw6mohw"]
+    },
+    {
+      "name": "Mando",
+      "profile": "assets/characters/Mando/01.jfif",
+      "pictures": [
+        "assets/characters/Mando/01.jfif",
+        "assets/characters/Mando/02.jfif",
+        "assets/characters/Mando/03.jfif",
+        "assets/characters/Mando/04.jfif",
+        "assets/characters/Mando/05.jfif",
+        "assets/characters/Mando/06.jfif",
+        "assets/characters/Mando/07.jfif",
+        "assets/characters/Mando/08.jfif",
+        "assets/characters/Mando/09.jfif"
+      ]
+    },
+    {
+      "name": "Yoda",
+      "profile": "assets/characters/Yoda/01.jfif",
+      "pictures": [
+        "assets/characters/Yoda/01.jfif",
+        "assets/characters/Yoda/02.jfif",
+        "assets/characters/Yoda/03.jfif",
+        "assets/characters/Yoda/04.jfif",
+        "assets/characters/Yoda/05.jfif",
+        "assets/characters/Yoda/06.jfif",
+        "assets/characters/Yoda/07.jfif",
+        "assets/characters/Yoda/08.jfif",
+        "assets/characters/Yoda/09.jfif"
+      ]
+    },
+    {
+      "name": "Grogu",
+      "profile": "assets/characters/Grogu/01.jfif",
+      "pictures": [
+        "assets/characters/Grogu/01.jfif",
+        "assets/characters/Grogu/02.jfif",
+        "assets/characters/Grogu/03.jfif",
+        "assets/characters/Grogu/04.jfif",
+        "assets/characters/Grogu/05.jfif",
+        "assets/characters/Grogu/06.jfif",
+        "assets/characters/Grogu/07.jfif",
+        "assets/characters/Grogu/08.jfif",
+        "assets/characters/Grogu/09.jfif"
+      ]
+    }
+  ]
+}

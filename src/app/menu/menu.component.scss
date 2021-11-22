@@ -1,0 +1,16 @@
+.character {
+  display: inline-block;
+  margin: 10px;
+
+  img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: solid 2px lightblue;
+    margin-bottom: 5px;
+  }
+
+  div {
+    text-align: center;
+  }
+}
