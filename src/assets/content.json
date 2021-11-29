@@ -2,7 +2,7 @@
   "characters": [
     {
       "name": "Revan",
-      "profile": "assets/characters/Revan/03.jfif",
+      "profile": "assets/characters/Revan/10.jfif",
       "pictures": [
         "assets/characters/Revan/01.jfif",
         "assets/characters/Revan/02.jfif",
@@ -12,7 +12,8 @@
         "assets/characters/Revan/06.jfif",
         "assets/characters/Revan/07.jfif",
         "assets/characters/Revan/08.jfif",
-        "assets/characters/Revan/09.jfif"
+        "assets/characters/Revan/09.jfif",
+        "assets/characters/Revan/10.jfif"
       ],
       "videos": ["lL-RfE-ioJ8", "8eoaaHSm4mU"]
     },
@@ -126,7 +127,7 @@
         "assets/characters/Yoda/08.jfif",
         "assets/characters/Yoda/09.jfif"
       ],
-      "videos": ["QQqiHm3mSOY"]
+      "videos": ["U9t-slLl30E", "3Xl0Qr0uXuY", "QQqiHm3mSOY"]
     },
     {
       "name": "Grogu",

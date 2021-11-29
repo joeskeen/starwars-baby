@@ -21,6 +21,7 @@ export class ContentService {
       this.http.get<IContent>('assets/content.json')
     );
     this._content = content;
+    content.characters.sort((a, b) => a.name.localeCompare(b.name));
     return content;
   }
 }

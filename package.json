@@ -19,6 +19,7 @@
     "@angular/platform-browser": "~13.0.0",
     "@angular/platform-browser-dynamic": "~13.0.0",
     "@angular/router": "~13.0.0",
+    "@angular/service-worker": "~13.0.0",
     "@healthcatalyst/cashmere": "^11.3.0",
     "font-awesome": "^4.7.0",
     "notosans-fontface": "^1.2.2",
