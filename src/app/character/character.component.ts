@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, ElementRef } from '@angular/core';
 import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
 import { ActivatedRoute, Router } from '@angular/router';
 import { ContentService, ICharacter } from '../content/content.service';
@@ -22,7 +22,8 @@ export class CharacterComponent {
     private router: Router,
     private activatedRoute: ActivatedRoute,
     private content: ContentService,
-    private sanitizer: DomSanitizer
+    private sanitizer: DomSanitizer,
+    private element: ElementRef
   ) {
     this.activatedRoute.paramMap.subscribe((params) => {
       this.characterId = params.get('id')!;
@@ -45,5 +46,27 @@ export class CharacterComponent {
 
   goBack() {
     this.router.navigate(['/']);
+  }
+
+  pauseVideos() {
+    const nativeElement: HTMLElement = this.element.nativeElement;
+    stop(nativeElement);
+
+    function stop(element: HTMLElement | Document) {
+      element.querySelectorAll('iframe').forEach(iframe => {
+        try {
+          if (iframe.contentWindow){
+            stop(iframe.contentWindow.document);
+            return;
+          }  
+        } catch {
+        }
+        // reset the iframe source to reload it
+        const iframeSrc = iframe.src;
+        iframe.src = iframeSrc;
+      });
+      element.querySelectorAll('video').forEach(v => v.pause());
+      element.querySelectorAll('audio').forEach(a => a.pause());
+    }
   }
 }

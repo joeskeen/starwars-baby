@@ -8,9 +8,20 @@
     border-radius: 50%;
     border: solid 2px lightblue;
     margin-bottom: 5px;
+    object-fit: cover;
   }
 
   div {
     text-align: center;
   }
+
+}
+
+h1 {
+  text-align: center;
+}
+
+.container {
+  margin: 10px;
+  text-align: center;
 }

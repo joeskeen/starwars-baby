@@ -8,10 +8,11 @@ import { CharacterComponent } from './character/character.component';
 import { ContentService } from './content/content.service';
 import { MenuComponent } from './menu/menu.component';
 import { SwiperModule } from 'swiper/angular';
+import { CashmereModule } from './cashmere.module';
 
 @NgModule({
   declarations: [AppComponent, CharacterComponent, MenuComponent],
-  imports: [BrowserModule, AppRoutingModule, HttpClientModule, SwiperModule],
+  imports: [BrowserModule, AppRoutingModule, HttpClientModule, SwiperModule, CashmereModule],
   providers: [ContentService],
   bootstrap: [AppComponent],
 })

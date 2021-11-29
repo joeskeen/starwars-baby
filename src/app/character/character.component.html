@@ -1,5 +1,7 @@
 <div class="header">
-  <button (click)="goBack()">Back</button>
+  <button hc-icon-button (click)="goBack()">
+    <hc-icon fontSet="fa" fontIcon="fa-arrow-circle-left"></hc-icon>
+  </button>
   <h1>{{ characterId }}</h1>
 </div>
 <div *ngIf="character">
@@ -11,6 +13,7 @@
       clickable: true
     }"
     [navigation]="true"
+    (slideChange)="pauseVideos()"
   >
     <ng-template *ngFor="let picture of character.pictures" swiperSlide>
       <div class="centered">
