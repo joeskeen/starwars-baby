@@ -4,20 +4,20 @@
 @import "swiper/scss";
 @import "swiper/scss/navigation";
 @import "swiper/scss/pagination";
-@import url('http://fonts.cdnfonts.com/css/distortion-dos-digital');
+// @import url('http://fonts.cdnfonts.com/css/distortion-dos-digital');
 
-@media screen and (orientation: portrait) {
-  html {
-    transform: rotate(-90deg);
-    transform-origin: left top;
-    width: 100vh;
-    height: 100vw;
-    overflow-x: hidden;
-    position: absolute;
-    top: 100%;
-    left: 0;
-  }
-}
+// @media screen and (orientation: portrait) {
+//   html {
+//     transform: rotate(-90deg);
+//     transform-origin: left top;
+//     width: 100vh;
+//     height: 100vw;
+//     overflow-x: hidden;
+//     position: absolute;
+//     top: 100%;
+//     left: 0;
+//   }
+// }
 
 // html,
 // body {

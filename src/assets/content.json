@@ -144,6 +144,13 @@
         "assets/characters/Grogu/09.jfif"
       ],
       "videos": ["GKkhU56UX2s"]
+    },
+    {
+      "name": "Ahsoka Tano",
+      "profile": "assets/characters/Ahsoka/01.png",
+      "pictures": [
+        "assets/characters/Ahsoka/01.png"
+      ]
     }
   ]
 }
